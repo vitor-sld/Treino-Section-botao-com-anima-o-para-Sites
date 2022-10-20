@@ -1,0 +1,165 @@
+/*
+Verde Titulo - #C3D9AD
+Verde Claro - #09A603
+Verde fosco - #B8D9BA
+Branco Rosado - #F2DCF2
+Branco - FFF
+Preto - #403D3E
+*/
+*{
+	margin: 0%;
+	padding: 0%;
+	box-sizing: border-box;
+}
+header{
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	top: 0%;
+	left: 0%;
+
+}
+header nav{
+	
+width: 90%;
+margin: 0px auto;
+padding:  20px 0;
+}
+header nav div#logo{
+	background-image: url(../img/LogoVegan.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	float: left;
+	height: 125px;
+	width: 125px;
+	margin: 0px 20px 10px 0px;
+
+}
+header nav div ul{
+	display: flex;
+	flex-flow:row wrap;
+	justify-content: left;
+}
+header nav div#navLadoEsquedo{
+	float: left;
+}
+header nav div#navLadoDireito{
+	float: right;
+}
+header nav div ul li{
+	margin-top: 30px;
+	padding: 10px 10px;
+	border-radius: 30px;
+}
+header nav a{
+	padding: 10px 20px;
+	border-radius: 5px;
+}
+header nav div#navLadoDireito a#btnEntrar{
+padding: 15px 40px;
+background-color: #0ABF04;
+cursor: pointer;
+}
+header nav div#navLadoDireito a#btnEntrar:hover{
+	padding: 15px 40px;
+	background-color: #0abf04b4;
+	cursor: pointer;
+	}
+header section#OpcoesInicio{
+	position: absolute;
+	top: 25%;
+	left: 15%;
+	width: 70%;
+}
+
+header section div#opcoesMaster{
+	margin-top: 40px;
+	width: 100%;
+	min-width: 300px;
+	min-height: 200px;
+	height: auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	position: relative;
+
+	
+}
+section div.opcAlinhamento{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 100%;
+}
+/*lado esquerdo*/
+header section div#opcladoEsquerdo{
+	background-color: #90da95;
+	width: 45%;
+	border-radius: 25px;
+	display: flex;
+	flex-direction: row;
+	cursor: pointer;
+}
+header section div#opcladoEsquerdo:hover{
+	transform: scale(1.04);
+	transition: 0.8s;
+}
+section div#opcladoEsquerdo div#opcLado1Esquerdo{
+	width: 45%;
+	display: flex;
+}
+
+
+section div#opcladoEsquerdo div#opcLado2Esquerdo{
+	position: relative;
+	width: 45%;
+	height: 100%;
+}
+
+section div#opcLado2Esquerdo figure{
+	width: 100%;
+	position: absolute;
+	bottom: 0%;
+	left: -10%;
+}
+/*lado Direito*/
+
+
+
+header section div#opcladoDireito{
+	background-color: #90da95;
+	width: 45%;
+	border-radius: 25px;
+	display: flex;
+	flex-direction: row;
+	cursor: pointer;
+}
+header section div#opcladoDireito:hover{
+	transform: scale(1.04);
+	transition: 0.8s;
+}
+section div#opcladoDireito div#opcLado1Direito{
+	width: 45%;
+	height: 100%;
+display: flex;
+flex-direction: column;
+align-content: space-around;
+
+}
+
+
+section div#opcladoDireito div#opcLado2Direito{
+	position: relative;
+width: 55%;
+height: 100%;
+top: 0;
+left: 0;
+
+}
+section  div#opcLado2Direito figure img{
+position: absolute;
+bottom: 0%;
+left: -10%;
+width: 100%;
+}

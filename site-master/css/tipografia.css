@@ -1,0 +1,74 @@
+/*
+Subtítulo - font-family: 'Fauna One', serif;
+Texto font-family: 'Open Sans', sans-serif;
+Título - font-family: 'Playfair Display', serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Patua One', cursive;
+
+Verde Titulo - #C3D9AD
+Verde Claro - #09A603
+Verde fosco - #B8D9BA
+Branco Rosado - #F2DCF2
+Branco - FFF
+Preto - #403D3E
+*/
+
+/*PADRONIZANDO ELEMENTOS*/
+*{
+font-size: 16pt;	
+text-decoration: none;
+}
+h1,h2,h3{
+	font-family: 'Patua One', cursive;
+	font-size: 200%;
+	color:#09A603;
+	text-align: center;
+	font-weight: 100;
+}
+h4,h5,h6{
+	color: #403D3E;
+	font-family: 'Roboto', sans-serif;
+	font-weight:400;
+	font-size: 100%;
+	text-align: center;
+}
+p,a, li{
+	font-family: 'Roboto';
+}
+/*HEADER NAV*/
+nav ul li{
+	list-style: none;
+	
+}
+nav ul li a{
+	font-size: 70%;
+	font-weight: 600;
+	text-decoration: none;
+	color: #403D3E;
+}
+header nav div#navLadoDireito a#btnEntrar{
+	color:white;
+}
+
+header section#OpcoesInicio div.opcAlinhamento h5{
+	text-align: left;
+	color: white;
+	text-decoration: none;
+	font-size: 150%;
+	font-weight: 600;
+	margin: 40px 0px 0px 20px;
+}
+header section#OpcoesInicio a{
+	text-align: center;
+	font-size: 80%;
+	color: white;
+	text-decoration: none;
+	font-weight: 500;
+	margin: 0px 0px 0px 20px;
+	background-color: #0bcc05;
+	border-radius: 15px;
+	margin-bottom: 15px;
+	padding: 10px 20px;	
+	max-width: 150px;
+}
